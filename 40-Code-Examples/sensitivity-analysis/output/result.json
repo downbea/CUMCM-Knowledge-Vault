@@ -1,0 +1,29 @@
+{
+  "baseline": 10.0,
+  "perturbations": [
+    {
+      "parameter": "a",
+      "pct": -0.1,
+      "output": 9.24,
+      "relative_output_change": -0.07599999999999996
+    },
+    {
+      "parameter": "a",
+      "pct": 0.1,
+      "output": 10.84,
+      "relative_output_change": 0.08400000000000007
+    },
+    {
+      "parameter": "b",
+      "pct": -0.1,
+      "output": 9.4,
+      "relative_output_change": -0.05999999999999994
+    },
+    {
+      "parameter": "b",
+      "pct": 0.1,
+      "output": 10.600000000000001,
+      "relative_output_change": 0.06000000000000005
+    }
+  ]
+}

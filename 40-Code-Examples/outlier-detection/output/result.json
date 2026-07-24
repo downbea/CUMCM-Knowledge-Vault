@@ -1,0 +1,18 @@
+{
+  "iqr_flags": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "isolation_forest_flags": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ]
+}

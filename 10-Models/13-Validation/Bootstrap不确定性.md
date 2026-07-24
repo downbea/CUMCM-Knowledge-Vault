@@ -1,0 +1,68 @@
+---
+id: model-bootstrap-uncertainty
+title: Bootstrap不确定性
+english_name: Bootstrap Uncertainty
+aliases: [Bootstrap Uncertainty]
+tier: high-frequency
+category: 统计与不确定性
+status: seeded
+decision: pending
+code_status: passed_in_build_environment
+source_status: foundational_sources_listed
+tags: [模型, high-frequency, 统计与不确定性]
+use_cases: [复杂统计量、小样本不确定性]
+code_example: "[[40-Code-Examples/bootstrap-uncertainty/README|Python 示例]]"
+last_validated: 2026-07-24
+---
+
+# Bootstrap不确定性
+
+## 一句话定位
+
+通过重抽样估计统计量的抽样分布和区间。
+
+## 适用问题
+
+复杂统计量、小样本不确定性。系统只能把本方法列为候选，不能仅凭关键词直接确定为主模型。
+
+## 前置条件与数据要求
+
+样本代表性和独立性影响结果。使用前应检查字段含义、样本量、量纲、缺失值、异常值和数据泄漏风险。
+
+## 数学原理
+
+有放回重抽样并重复计算统计量。正式论文需要结合当前题目的变量、约束与假设重新推导，不能只粘贴通用公式。
+
+## 标准流程
+
+先建立数据与目标定义，再运行简单基线；随后拟合或求解本模型，使用同一数据、同一划分和同一指标与候选模型比较；最后进行稳健性、灵敏度或误差分析，并记录配置、数据哈希、随机种子和运行环境。
+
+## 评价与检验
+
+重点检查：标准误、分位数区间、稳定性。复杂或随机模型必须报告多次运行或交叉验证的平均结果和波动。
+
+## 优点
+
+该方法具有明确的经典定义，并拥有成熟的 Python 实现路径。其优势只有在当前题目的数据条件和目标下得到验证后，才能写入论文结论。
+
+## 局限与不适用场景
+
+方法假设不满足、样本规模不足、变量定义不清或缺乏有效验证时，不应强行套用。不能以“模型更高级”代替必要性论证。
+
+## 相近模型
+
+通过同类别 MOC、题型页和双向链接比较相近方法。主模型选择需要同时保留被淘汰模型及淘汰理由。
+
+## Python 示例
+
+见 [[40-Code-Examples/bootstrap-uncertainty/README|Bootstrap不确定性可运行示例]]。示例用于验证基本机制，不代表已经复现任何具体论文或国赛题。
+
+## 论文写法
+
+论文中应依次说明选择理由、变量与假设、模型表达、求解方法、参数来源、结果与评价、稳健性和局限。所有结果必须引用冻结文件，不能手工抄写未追溯数字。
+
+## 来源与证据
+
+- NumPy/SciPy/scikit-learn official documentation and standard mathematical-modeling textbooks.
+
+> 该条目是第一阶段系统种子知识，代码已执行验证，但仍需要用户在批量审核页完成首次人工确认。

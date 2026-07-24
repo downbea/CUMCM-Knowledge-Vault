@@ -1,0 +1,69 @@
+---
+id: model-topsis
+title: TOPSIS
+english_name: Technique for Order Preference by Similarity to Ideal Solution
+aliases: [Technique for Order Preference by Similarity to Ideal Solution]
+tier: high-frequency
+category: 综合评价
+status: seeded
+decision: pending
+code_status: passed_in_build_environment
+source_status: foundational_sources_listed
+tags: [模型, high-frequency, 综合评价]
+use_cases: [多指标排序]
+code_example: "[[40-Code-Examples/topsis/README|Python 示例]]"
+last_validated: 2026-07-24
+---
+
+# TOPSIS
+
+## 一句话定位
+
+按方案接近正理想解且远离负理想解的程度排序。
+
+## 适用问题
+
+多指标排序。系统只能把本方法列为候选，不能仅凭关键词直接确定为主模型。
+
+## 前置条件与数据要求
+
+权重、距离度量和标准化方式影响结果。使用前应检查字段含义、样本量、量纲、缺失值、异常值和数据泄漏风险。
+
+## 数学原理
+
+计算加权标准化矩阵、理想解距离和贴近度。正式论文需要结合当前题目的变量、约束与假设重新推导，不能只粘贴通用公式。
+
+## 标准流程
+
+先建立数据与目标定义，再运行简单基线；随后拟合或求解本模型，使用同一数据、同一划分和同一指标与候选模型比较；最后进行稳健性、灵敏度或误差分析，并记录配置、数据哈希、随机种子和运行环境。
+
+## 评价与检验
+
+重点检查：贴近度、排名稳定性。复杂或随机模型必须报告多次运行或交叉验证的平均结果和波动。
+
+## 优点
+
+该方法具有明确的经典定义，并拥有成熟的 Python 实现路径。其优势只有在当前题目的数据条件和目标下得到验证后，才能写入论文结论。
+
+## 局限与不适用场景
+
+方法假设不满足、样本规模不足、变量定义不清或缺乏有效验证时，不应强行套用。不能以“模型更高级”代替必要性论证。
+
+## 相近模型
+
+通过同类别 MOC、题型页和双向链接比较相近方法。主模型选择需要同时保留被淘汰模型及淘汰理由。
+
+## Python 示例
+
+见 [[40-Code-Examples/topsis/README|TOPSIS可运行示例]]。示例用于验证基本机制，不代表已经复现任何具体论文或国赛题。
+
+## 论文写法
+
+论文中应依次说明选择理由、变量与假设、模型表达、求解方法、参数来源、结果与评价、稳健性和局限。所有结果必须引用冻结文件，不能手工抄写未追溯数字。
+
+## 来源与证据
+
+- Saaty, T. L. The Analytic Hierarchy Process. McGraw-Hill, 1980.
+- Hwang, C. L.; Yoon, K. Multiple Attribute Decision Making. Springer, 1981.
+
+> 该条目是第一阶段系统种子知识，代码已执行验证，但仍需要用户在批量审核页完成首次人工确认。

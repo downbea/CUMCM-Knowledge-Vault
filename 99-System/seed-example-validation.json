@@ -1,0 +1,314 @@
+[
+  {
+    "name": "ahp",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "arima",
+    "returncode": 0,
+    "seconds": 0.607,
+    "stderr": ""
+  },
+  {
+    "name": "assignment-problem",
+    "returncode": 0,
+    "seconds": 0.0,
+    "stderr": ""
+  },
+  {
+    "name": "bootstrap-uncertainty",
+    "returncode": 0,
+    "seconds": 0.036,
+    "stderr": ""
+  },
+  {
+    "name": "combination-weight",
+    "returncode": 0,
+    "seconds": 0.0,
+    "stderr": ""
+  },
+  {
+    "name": "correlation-analysis",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "critic-weight",
+    "returncode": 0,
+    "seconds": 0.0,
+    "stderr": ""
+  },
+  {
+    "name": "dbscan",
+    "returncode": 0,
+    "seconds": 0.146,
+    "stderr": ""
+  },
+  {
+    "name": "dea",
+    "returncode": 0,
+    "seconds": 0.005,
+    "stderr": ""
+  },
+  {
+    "name": "differential-evolution",
+    "returncode": 0,
+    "seconds": 0.062,
+    "stderr": ""
+  },
+  {
+    "name": "dynamic-programming",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "entropy-weight",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "exponential-smoothing",
+    "returncode": 0,
+    "seconds": 0.007,
+    "stderr": ""
+  },
+  {
+    "name": "fuzzy-comprehensive-evaluation",
+    "returncode": 0,
+    "seconds": 0.0,
+    "stderr": ""
+  },
+  {
+    "name": "gaussian-mixture",
+    "returncode": 0,
+    "seconds": 0.012,
+    "stderr": ""
+  },
+  {
+    "name": "genetic-algorithm",
+    "returncode": 0,
+    "seconds": 0.027,
+    "stderr": ""
+  },
+  {
+    "name": "gm11",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "gradient-boosting-regression",
+    "returncode": 0,
+    "seconds": 0.265,
+    "stderr": ""
+  },
+  {
+    "name": "grey-relational-analysis",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "hierarchical-clustering",
+    "returncode": 0,
+    "seconds": 0.016,
+    "stderr": ""
+  },
+  {
+    "name": "holt-winters",
+    "returncode": 0,
+    "seconds": 0.042,
+    "stderr": ""
+  },
+  {
+    "name": "hypothesis-testing",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "kalman-filter",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "kmeans",
+    "returncode": 0,
+    "seconds": 0.015,
+    "stderr": ""
+  },
+  {
+    "name": "linear-programming",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "linear-regression",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "logistic-regression",
+    "returncode": 0,
+    "seconds": 0.03,
+    "stderr": ""
+  },
+  {
+    "name": "markov-chain",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "maximum-flow",
+    "returncode": 0,
+    "seconds": 0.078,
+    "stderr": ""
+  },
+  {
+    "name": "minimum-spanning-tree",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "missing-value-imputation",
+    "returncode": 0,
+    "seconds": 0.008,
+    "stderr": ""
+  },
+  {
+    "name": "mixed-integer-programming",
+    "returncode": 0,
+    "seconds": 0.004,
+    "stderr": ""
+  },
+  {
+    "name": "mm1-queue",
+    "returncode": 0,
+    "seconds": 0.0,
+    "stderr": ""
+  },
+  {
+    "name": "monte-carlo",
+    "returncode": 0,
+    "seconds": 0.028,
+    "stderr": ""
+  },
+  {
+    "name": "moving-average",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "multiobjective-optimization",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "nonlinear-programming",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "normalization",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "outlier-detection",
+    "returncode": 0,
+    "seconds": 0.071,
+    "stderr": ""
+  },
+  {
+    "name": "particle-swarm",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "pca",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "random-forest-classification",
+    "returncode": 0,
+    "seconds": 1.018,
+    "stderr": ""
+  },
+  {
+    "name": "random-forest-regression",
+    "returncode": 0,
+    "seconds": 0.609,
+    "stderr": ""
+  },
+  {
+    "name": "robust-regression",
+    "returncode": 0,
+    "seconds": 0.009,
+    "stderr": ""
+  },
+  {
+    "name": "sensitivity-analysis",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "shortest-path",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "simulated-annealing",
+    "returncode": 0,
+    "seconds": 0.008,
+    "stderr": ""
+  },
+  {
+    "name": "sir-ode",
+    "returncode": 0,
+    "seconds": 0.002,
+    "stderr": ""
+  },
+  {
+    "name": "svm",
+    "returncode": 0,
+    "seconds": 0.029,
+    "stderr": ""
+  },
+  {
+    "name": "time-series-cross-validation",
+    "returncode": 0,
+    "seconds": 0.003,
+    "stderr": ""
+  },
+  {
+    "name": "topsis",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  },
+  {
+    "name": "tsp",
+    "returncode": 0,
+    "seconds": 0.001,
+    "stderr": ""
+  }
+]
