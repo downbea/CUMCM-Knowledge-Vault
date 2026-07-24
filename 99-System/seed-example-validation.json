@@ -2,37 +2,37 @@
   {
     "name": "ahp",
     "returncode": 0,
-    "seconds": 0.144,
+    "seconds": 0.139,
     "stderr": ""
   },
   {
     "name": "arima",
     "returncode": 0,
-    "seconds": 2.924,
+    "seconds": 2.114,
     "stderr": ""
   },
   {
     "name": "assignment-problem",
     "returncode": 0,
-    "seconds": 0.002,
+    "seconds": 0.003,
     "stderr": ""
   },
   {
     "name": "bootstrap-uncertainty",
     "returncode": 0,
-    "seconds": 0.039,
+    "seconds": 0.044,
     "stderr": ""
   },
   {
     "name": "combination-weight",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.002,
     "stderr": ""
   },
   {
     "name": "correlation-analysis",
     "returncode": 0,
-    "seconds": 0.009,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
@@ -44,25 +44,25 @@
   {
     "name": "dbscan",
     "returncode": 0,
-    "seconds": 2.881,
+    "seconds": 0.708,
     "stderr": ""
   },
   {
     "name": "dea",
     "returncode": 0,
-    "seconds": 0.012,
+    "seconds": 0.009,
     "stderr": ""
   },
   {
     "name": "differential-evolution",
     "returncode": 0,
-    "seconds": 0.095,
+    "seconds": 0.075,
     "stderr": ""
   },
   {
     "name": "dynamic-programming",
     "returncode": 0,
-    "seconds": 0.003,
+    "seconds": 0.002,
     "stderr": ""
   },
   {
@@ -74,37 +74,37 @@
   {
     "name": "exponential-smoothing",
     "returncode": 0,
-    "seconds": 0.103,
+    "seconds": 0.027,
     "stderr": ""
   },
   {
     "name": "fuzzy-comprehensive-evaluation",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.003,
     "stderr": ""
   },
   {
     "name": "gaussian-mixture",
     "returncode": 0,
-    "seconds": 8.142,
+    "seconds": 8.058,
     "stderr": ""
   },
   {
     "name": "genetic-algorithm",
     "returncode": 0,
-    "seconds": 0.051,
+    "seconds": 0.052,
     "stderr": ""
   },
   {
     "name": "gm11",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
     "name": "gradient-boosting-regression",
     "returncode": 0,
-    "seconds": 0.817,
+    "seconds": 0.55,
     "stderr": ""
   },
   {
@@ -116,49 +116,49 @@
   {
     "name": "hierarchical-clustering",
     "returncode": 0,
-    "seconds": 0.156,
+    "seconds": 0.054,
     "stderr": ""
   },
   {
     "name": "holt-winters",
     "returncode": 0,
-    "seconds": 0.065,
+    "seconds": 0.09,
     "stderr": ""
   },
   {
     "name": "hypothesis-testing",
     "returncode": 0,
-    "seconds": 0.004,
+    "seconds": 0.005,
     "stderr": ""
   },
   {
     "name": "kalman-filter",
     "returncode": 0,
-    "seconds": 0.002,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
     "name": "kmeans",
     "returncode": 0,
-    "seconds": 0.086,
+    "seconds": 0.096,
     "stderr": ""
   },
   {
     "name": "linear-programming",
     "returncode": 0,
-    "seconds": 0.014,
+    "seconds": 0.005,
     "stderr": ""
   },
   {
     "name": "linear-regression",
     "returncode": 0,
-    "seconds": 0.005,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
     "name": "logistic-regression",
     "returncode": 0,
-    "seconds": 0.069,
+    "seconds": 0.076,
     "stderr": ""
   },
   {
@@ -170,43 +170,43 @@
   {
     "name": "maximum-flow",
     "returncode": 0,
-    "seconds": 0.33,
+    "seconds": 0.522,
     "stderr": ""
   },
   {
     "name": "minimum-spanning-tree",
     "returncode": 0,
-    "seconds": 0.008,
+    "seconds": 0.003,
     "stderr": ""
   },
   {
     "name": "missing-value-imputation",
     "returncode": 0,
-    "seconds": 0.076,
+    "seconds": 0.085,
     "stderr": ""
   },
   {
     "name": "mixed-integer-programming",
     "returncode": 0,
-    "seconds": 0.024,
+    "seconds": 0.019,
     "stderr": ""
   },
   {
     "name": "mm1-queue",
     "returncode": 0,
-    "seconds": 0.001,
+    "seconds": 0.002,
     "stderr": ""
   },
   {
     "name": "monte-carlo",
     "returncode": 0,
-    "seconds": 0.009,
+    "seconds": 0.008,
     "stderr": ""
   },
   {
     "name": "moving-average",
     "returncode": 0,
-    "seconds": 0.003,
+    "seconds": 0.001,
     "stderr": ""
   },
   {
@@ -218,97 +218,97 @@
   {
     "name": "nonlinear-programming",
     "returncode": 0,
-    "seconds": 0.003,
+    "seconds": 0.0,
     "stderr": ""
   },
   {
     "name": "normalization",
     "returncode": 0,
-    "seconds": 0.002,
+    "seconds": 0.0,
     "stderr": ""
   },
   {
     "name": "outlier-detection",
     "returncode": 0,
-    "seconds": 0.09,
+    "seconds": 0.108,
     "stderr": ""
   },
   {
     "name": "particle-swarm",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.005,
     "stderr": ""
   },
   {
     "name": "pca",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
     "name": "random-forest-classification",
     "returncode": 0,
-    "seconds": 1.318,
+    "seconds": 1.418,
     "stderr": ""
   },
   {
     "name": "random-forest-regression",
     "returncode": 0,
-    "seconds": 0.756,
+    "seconds": 0.774,
     "stderr": ""
   },
   {
     "name": "robust-regression",
     "returncode": 0,
-    "seconds": 0.017,
+    "seconds": 0.024,
     "stderr": ""
   },
   {
     "name": "sensitivity-analysis",
     "returncode": 0,
-    "seconds": 0.002,
+    "seconds": 0.0,
     "stderr": ""
   },
   {
     "name": "shortest-path",
     "returncode": 0,
-    "seconds": 0.003,
+    "seconds": 0.005,
     "stderr": ""
   },
   {
     "name": "simulated-annealing",
     "returncode": 0,
-    "seconds": 0.006,
+    "seconds": 0.003,
     "stderr": ""
   },
   {
     "name": "sir-ode",
     "returncode": 0,
-    "seconds": 0.004,
+    "seconds": 0.007,
     "stderr": ""
   },
   {
     "name": "svm",
     "returncode": 0,
-    "seconds": 0.038,
+    "seconds": 0.041,
     "stderr": ""
   },
   {
     "name": "time-series-cross-validation",
     "returncode": 0,
-    "seconds": 0.007,
+    "seconds": 0.008,
     "stderr": ""
   },
   {
     "name": "topsis",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.004,
     "stderr": ""
   },
   {
     "name": "tsp",
     "returncode": 0,
-    "seconds": 0.0,
+    "seconds": 0.003,
     "stderr": ""
   }
 ]
