@@ -1,0 +1,17 @@
+{
+  "started_at_epoch": 1786946973.9686484,
+  "finished_at_epoch": 1786946982.14803,
+  "elapsed_seconds": 8.17938232421875,
+  "seed": 2026,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "2.1.0",
+  "pandas": "2.2.3",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.0",
+  "config_sha256": "8E72076101966E45F8AE4613CC94A668518888A2A7DB160F7FD9BB6DFB54694B",
+  "code_sha256": "07400A3C3887455AD4624715F9F2A8F1A060E1C6696469A59E0BE27DF2C189AA",
+  "data_sha256": "official B-problem values embedded in config.yaml; source PDF hashes are recorded in approved paper notes",
+  "git_commit": "e5196143c16cc1114dd2ceb45e1198f2876d8014",
+  "command": "python run.py --config config.yaml"
+}

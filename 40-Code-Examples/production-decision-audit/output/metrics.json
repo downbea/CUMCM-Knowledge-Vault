@@ -1,0 +1,52 @@
+{
+  "reproduction_grade": "partial-result-level + method-level + example-validation",
+  "p03_no_disassembly_cells": 48,
+  "p03_cells_within_reported_2dp_tolerance": 48,
+  "p03_max_absolute_difference_to_rounded_value": 0.0062500000000143,
+  "sampling_alternative_sensitivity": [
+    {
+      "p0": 0.1,
+      "p1": 0.12,
+      "n": 2107,
+      "accept_max_defects": 228,
+      "accept_probability_p0": 0.9008684393214741,
+      "reject_probability_p1": 0.9501894595644889
+    },
+    {
+      "p0": 0.1,
+      "p1": 0.15,
+      "n": 379,
+      "accept_max_defects": 45,
+      "accept_probability_p0": 0.901066183546439,
+      "reject_probability_p1": 0.9519734860739592
+    },
+    {
+      "p0": 0.1,
+      "p1": 0.2,
+      "n": 112,
+      "accept_max_defects": 15,
+      "accept_probability_p0": 0.9077951723803006,
+      "reject_probability_p1": 0.953290844598521
+    }
+  ],
+  "p03_n43_exact_boundaries": {
+    "n": 43,
+    "p0": 0.1,
+    "accept_if_defects_at_most": 1,
+    "reject_if_defects_at_least": 9,
+    "inconclusive_from": 2,
+    "inconclusive_to": 8
+  },
+  "bayesian_demo": {
+    "posterior_alpha": 5.0,
+    "posterior_beta": 40.0,
+    "posterior_mean": 0.1111111111111111,
+    "posterior_95_interval": [
+      0.03794371293927478,
+      0.21668658946527453
+    ],
+    "plug_in_policy": "012",
+    "mean_perfect_information_regret": 0.21433680831692936,
+    "draws": 10000
+  }
+}

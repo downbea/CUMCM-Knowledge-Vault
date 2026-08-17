@@ -1,0 +1,38 @@
+seed: 2026
+
+paths:
+  output_root: output
+
+sampling:
+  nominal_defect_rate: 0.10
+  acceptable_probability_at_nominal: 0.90
+  reject_probability_at_alternative: 0.95
+  alternative_defect_rates: [0.12, 0.15, 0.20]
+  maximum_sample_size: 10000
+  paper_p03_sample_size: 43
+
+problem2_cases:
+  - {case: 1, p1: 0.10, buy1: 4, inspect1: 2, p2: 0.10, buy2: 18, inspect2: 3, p3: 0.10, assembly: 6, inspect_final: 3, price: 56, exchange: 6, disassembly: 5}
+  - {case: 2, p1: 0.20, buy1: 4, inspect1: 2, p2: 0.20, buy2: 18, inspect2: 3, p3: 0.20, assembly: 6, inspect_final: 3, price: 56, exchange: 6, disassembly: 5}
+  - {case: 3, p1: 0.10, buy1: 4, inspect1: 2, p2: 0.10, buy2: 18, inspect2: 3, p3: 0.10, assembly: 6, inspect_final: 3, price: 56, exchange: 30, disassembly: 5}
+  - {case: 4, p1: 0.20, buy1: 4, inspect1: 1, p2: 0.20, buy2: 18, inspect2: 1, p3: 0.20, assembly: 6, inspect_final: 2, price: 56, exchange: 30, disassembly: 5}
+  - {case: 5, p1: 0.10, buy1: 4, inspect1: 8, p2: 0.20, buy2: 18, inspect2: 1, p3: 0.10, assembly: 6, inspect_final: 2, price: 56, exchange: 10, disassembly: 5}
+  - {case: 6, p1: 0.05, buy1: 4, inspect1: 2, p2: 0.05, buy2: 18, inspect2: 3, p3: 0.05, assembly: 6, inspect_final: 3, price: 56, exchange: 10, disassembly: 40}
+
+paper_p03_reported_profit:
+  "009": [12.67, 2.56, 12.67, 8.50, 5.91, 16.61]
+  "010": [15.33, 4.81, 12.67, 3.50, 7.02, 19.24]
+  "011": [14.44, 2.09, 14.44, 5.61, 1.37, 19.09]
+  "012": [16.73, 3.40, 11.10, -8.14, 0.26, 21.33]
+  "013": [11.14, -5.33, 11.14, 0.14, 11.86, 17.10]
+  "014": [13.44, -4.02, 7.81, -13.61, 11.99, 19.35]
+  "015": [13.48, -4.55, 13.48, -2.60, 9.70, 19.84]
+  "016": [15.36, -4.41, 6.44, -27.28, 7.36, 21.68]
+
+bayesian_demo:
+  sample_size: 43
+  observed_defects: 4
+  prior_alpha: 1.0
+  prior_beta: 1.0
+  posterior_draws: 10000
+  case: 1
