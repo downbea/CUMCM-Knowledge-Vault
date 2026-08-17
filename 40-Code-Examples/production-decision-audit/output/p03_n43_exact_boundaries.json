@@ -1,0 +1,8 @@
+{
+  "n": 43,
+  "p0": 0.1,
+  "accept_if_defects_at_most": 1,
+  "reject_if_defects_at_least": 9,
+  "inconclusive_from": 2,
+  "inconclusive_to": 8
+}

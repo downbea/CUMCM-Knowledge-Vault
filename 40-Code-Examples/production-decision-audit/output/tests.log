@@ -1,0 +1,9 @@
+test_bayesian_counts_equal_configured_draws (__main__.ProductionDecisionTests.test_bayesian_counts_equal_configured_draws) ... ok
+test_exact_sampling_plans_meet_both_errors (__main__.ProductionDecisionTests.test_exact_sampling_plans_meet_both_errors) ... ok
+test_p03_no_disassembly_table_matches_reported_precision (__main__.ProductionDecisionTests.test_p03_no_disassembly_table_matches_reported_precision) ... ok
+test_saved_runtime_has_seed_and_hashes (__main__.ProductionDecisionTests.test_saved_runtime_has_seed_and_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.521s
+
+OK

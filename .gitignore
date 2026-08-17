@@ -1,5 +1,7 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+01-Review-Queue/
 99-System/index/*.tmp
 99-System/cache/
 **/__pycache__/
+**/output/matplotlib/
